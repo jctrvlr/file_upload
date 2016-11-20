@@ -1,5 +1,5 @@
 <?php
-define("UPLOAD_DIR", "/afs/cad.njit.edu/u/j/i/jic6/public_html/UPLOADS");
+define("UPLOAD_DIR", "/afs/cad.njit.edu/u/j/i/jic6/public_html/UPLOADS/");
 
 if (!empty($_FILES["myFile"])) {
     $myFile = $_FILES["myFile"];
